@@ -1,0 +1,81 @@
+/*    Global Styles   */
+:root {
+    --dark: #1B1E21;
+    --cooldark: #333333;
+    --extremedark: #000000;
+    --khaki: #E48C21 !important;
+    --btnblue: #343F59;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+
+.text-khaki {
+    color: #E48C21 !important;
+}
+
+/*  Nav Bar  */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.navbar-brand:hover {
+    font-weight: bold;
+    font-size: 1.45em;
+    color: #E48C21 !important;
+    transition: all 700ms ease-in-out;
+}
+
+.nav-item {
+    font-weight: normal;
+    font-size: 1.1em;
+}
+
+.nav-item:hover {
+    font-weight: normal;
+    font-size: 1.15em;
+    font-weight: bold;
+    color: #E48C21 !important;
+    transition: all 700ms ease-in-out;
+}
+
+.active {
+    font-weight: normal;
+    font-size: 1.1em;
+}
+
+.active:hover {
+    color: #FFFFFF !important;
+    font-size: 1.15em;
+    font-weight: bold;
+    transition: all 700ms ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
