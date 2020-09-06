@@ -19,6 +19,7 @@
     color: #E48C21 !important;
 }
 
+
 /*  Nav Bar  */
 .navbar-brand {
     font-weight: bold;
@@ -58,7 +59,11 @@
 }
 
 
-
+/*   Jumbotron   */
+.card {
+    background: url(/Assets/Images/team-jumbotron-img.jpg);
+    width: 100%;
+}
 
 
 
