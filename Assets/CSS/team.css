@@ -1,9 +1,9 @@
 /*    Global Styles   */
 :root {
-    --dark: #1B1E21;
+    --vdark: #1B1E21;
     --cooldark: #333333;
     --extremedark: #000000;
-    --khaki: #E48C21 !important;
+    --khaki: #E48C21;
     --btnblue: #343F59;
 }
 
@@ -16,20 +16,30 @@
 }
 
 .text-khaki {
-    color: #E48C21 !important;
+    color: var(--khaki) !important;
 }
 
+.text-cooldark {
+    color: var(--cooldark);
+}
 
-/*  Nav Bar  */
+.bg-vdark {
+    background: var(--vdark);
+}
+/*   End of Global Styles   */
+
+
+
+/*  Begining of Nav Bar  */
 .navbar-brand {
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.3em;
 }
 
 .navbar-brand:hover {
     font-weight: bold;
-    font-size: 1.45em;
-    color: #E48C21 !important;
+    font-size: 1.35em;
+    color: var(--khaki) !important;
     transition: all 700ms ease-in-out;
 }
 
@@ -42,7 +52,7 @@
     font-weight: normal;
     font-size: 1.15em;
     font-weight: bold;
-    color: #E48C21 !important;
+    color: var(--khaki) !important;
     transition: all 700ms ease-in-out;
 }
 
@@ -58,13 +68,28 @@
     transition: all 700ms ease-in-out;
 }
 
+.nav-link {
+    margin-left: 1em;
+}
+/*   End of Nav Bar   */    
+
 
 /*   Jumbotron   */
-.card {
-    background: url(/Assets/Images/team-jumbotron-img.jpg);
-    width: 100%;
+.bg-cover {
+    background: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../Images/team-jumbotron-img.jpg') round;
+    height: 40.13em;
+    max-width: auto;
 }
 
+.jumbotron {
+    border: none;
+    border-radius: 0;
+}
+
+.text-underline {
+    border-bottom: 0.13em solid var(--khaki);
+}
+/*   End of Jumbotron   */
 
 
 
@@ -77,6 +102,31 @@
 
 
 
+/*   Media Query Responsiveness for Tabs~   */
+@media only screen and (max-width: 768px) {
+    .bg-cover {
+        background: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../Images/team-jumbotron-img.jpg') round;
+        max-height: 20em;
+        width: auto;
+    }
+
+    
+/* If the screen size is 768px wide or less, hide Overlay Div */
+    .overlay {
+        display: none;
+    }
+
+/* If the screen size is 768px wide or less, Reduce Font-size */
+    .h2 {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .lead {
+        font-size: 0.8em;
+        font-weight: normal;
+    }
+  }
 
 
 
@@ -84,3 +134,4 @@
 
 
 
+ 
