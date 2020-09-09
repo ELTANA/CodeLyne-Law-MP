@@ -99,11 +99,9 @@
 
 
 
-
-
-
 /*   Media Query Responsiveness for Tabs~   */
 @media only screen and (max-width: 768px) {
+    /*   Jumbotron/Showcase Section   */
     .bg-cover {
         background: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../Images/team-jumbotron-img.jpg') round;
         max-height: 20em;
@@ -126,7 +124,11 @@
         font-size: 0.8em;
         font-weight: normal;
     }
-  }
+    /*   End of Jumbotron/Showcase Section   */
+
+
+    
+}
 
 
 
