@@ -5,13 +5,14 @@
     --extremedark: #000000;
     --khaki: #E48C21;
     --btnblue: #343F59;
+    --btnxblue: #343F61;
 }
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', 'sans-serif';
     font-size: 15px;
 }
 
@@ -23,8 +24,16 @@
     color: var(--cooldark);
 }
 
+.text-btnblue {
+    color: var(--btnblue);
+}
+
 .bg-vdark {
     background: var(--vdark);
+}
+
+.bg-btnblue {
+    background: var(--btnblue);
 }
 /*   End of Global Styles   */
 
@@ -92,8 +101,100 @@
 /*   End of Jumbotron   */
 
 
+/*   justice Drake   */
+.card-img {
+    height: 100%;
+    width: 100%;
+}
 
 
+/*  Begining of Newsletter/Subscribe Section   */
+.newsletter {
+    background: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../Images/team-sub-img.jpg') round;
+    height: 20.3em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+.form-control {
+    max-height: 3em;
+    max-width: 25em;
+    border: none; 
+    border-radius:0;
+    display: flex;
+}
+
+.btn {
+    max-height: 3em;
+    max-width: 15em;
+    border: none;
+    border-radius: 0.33em;
+}
+
+.btn:hover {
+    background: var(--btnxblue);
+    border: none;
+    opacity: 0.9;
+    transition: all 700ms ease-in-out;
+}
+
+.content .h3 {
+    font-size: 1.3em;
+    line-height: 1em;
+}
+
+.content .p {
+    font-size: 1em;
+}
+
+.form-control {
+    height: 3.8em;
+    width: 25.6em;
+    border: none;
+    border-radius: 0 0.33em;
+}
+
+.form-control:hover {
+    border-bottom: 0.1em solid var(--cooldark);
+    transition: all 700ms ease-in-out;
+}
+
+
+/*   Footer   */
+.page-footer {
+    min-height: 32em;
+}
+
+.list-item {
+    font-size: 1.2em;
+    line-height: 1.86em;
+}
+
+.list-item:hover,
+.link-item:hover {
+    font-size: 1.22em;
+    color: var(--khaki) !important;
+    transition: all 700ms ease-in-out;
+}
+
+.link-item,
+#copyright-link {
+    font-size: 1em !important;
+    line-height: 1.86em;
+} 
+
+.link-item:hover {
+    font-size: 1.01em !important;
+    color: var(--khaki) !important;
+    transition: all 700ms ease-in-out;
+}
+
+.copyright {
+    border-top: 0.1em solid #FFFFFF;
+}
 
 
 
@@ -101,6 +202,9 @@
 
 /*   Media Query Responsiveness for Tabs~   */
 @media only screen and (max-width: 768px) {
+    /*   Nav Bar   */
+
+
     /*   Jumbotron/Showcase Section   */
     .bg-cover {
         background: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../Images/team-jumbotron-img.jpg') round;
@@ -125,6 +229,64 @@
         font-weight: normal;
     }
     /*   End of Jumbotron/Showcase Section   */
+
+    /*  subscribe/Newsletter   *
+    .newsletter {
+        background: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../Images/team-sub-img.jpg') round no-repeat;
+        background-blend-mode: soft-light;
+        height: 17.86em;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+        
+    .form-control {
+        max-height: 3.8em;
+        max-width: 25em;
+        border: none; 
+        border-radius:0;
+        display: flex;
+    }
+    
+    .btn {
+        max-height: 3.8em;
+        max-width: 15em;
+        border: none;
+        border-radius: 0.33em;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+    
+    .btn:hover {
+        background: var(--btnxblue);
+        border: none;
+        opacity: 0.9;
+        transition: all 700ms ease-in-out;
+    }
+    
+    .content .h3 {
+        font-size: 1.3em;
+        line-height: 1em;
+    }
+    
+    .content .p {
+        font-size: 1em;
+    }
+    
+    .form-control {
+        height: 3.8em;
+        width: 25.6em;
+        border: none;
+        border-radius: 0 0.33em;
+    }
+    
+    .form-control:hover {
+        border-bottom: 0.1em solid var(--cooldark);
+        transition: all 700ms ease-in-out;
+    }
+    */
 
 
     
