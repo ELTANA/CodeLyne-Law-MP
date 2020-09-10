@@ -1,0 +1,275 @@
+/*    Global Styles   */
+:root {
+    --vdark: #1B1E21;
+    --cooldark: #333333;
+    --extremedark: #000000;
+    --khaki: #E48C21;
+    --btnblue: #343F59;
+    --btnxblue: #343F61;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', 'sans-serif';
+    font-size: 15px;
+}
+
+.text-khaki {
+    color: var(--khaki) !important;
+}
+
+.text-cooldark {
+    color: var(--cooldark);
+}
+
+.text-btnblue {
+    color: var(--btnblue);
+}
+
+.bg-vdark {
+    background: var(--vdark);
+}
+
+.bg-btnblue {
+    background: var(--btnblue);
+}
+/*   End of Global Styles   */
+
+
+
+/*  Begining of Nav Bar  */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.navbar-brand:hover {
+    font-weight: bold;
+    font-size: 1.35em;
+    color: var(--khaki) !important;
+    transition: all 700ms ease-in-out;
+}
+
+.nav-item {
+    font-weight: normal;
+    font-size: 1.1em;
+}
+
+.nav-item:hover {
+    font-weight: normal;
+    font-size: 1.15em;
+    font-weight: bold;
+    color: var(--khaki) !important;
+    transition: all 700ms ease-in-out;
+}
+
+.active {
+    font-weight: normal;
+    font-size: 1.1em;
+}
+
+.active:hover {
+    color: #FFFFFF !important;
+    font-size: 1.15em;
+    font-weight: bold;
+    transition: all 700ms ease-in-out;
+}
+
+.nav-link {
+    margin-left: 1em;
+}
+/*   End of Nav Bar   */    
+
+
+/*   Jumbotron   */
+.bg-cover {
+    background: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../Images/consultation-jumbotron-img.jpg') round;
+    height: 40.13em;
+    max-width: auto;
+}
+
+.jumbotron {
+    border: none;
+    border-radius: 0;
+}
+
+.form--text {
+    font-size: 1.15em;
+    margin-top: 3em;
+}
+/*   End of Jumbotron   */
+
+
+/*   Consultation Form-Main Section   */
+.form--main {
+    max-width: 80em;
+    max-height: 62em;
+    background: #E5E5E5;
+    padding: 5em;
+}
+
+.form-control {
+    color: var(--cooldark);
+    border-radius: 0 !important;
+    border-bottom-right-radius: 5px !important;
+}
+
+.form-control:hover {
+    border-bottom: 1px solid var(--cooldark) !important;
+}
+
+.button {
+    width: 17.46em;
+    height: 3.2em;
+    padding: 0.66em 2em;
+    border: none;
+    border-radius: 0.33em;
+}
+
+.button:hover {
+    opacity: 0.9;
+    transition: all 700ms ease-in-out;
+}
+
+.button:active {
+    font-weight: bold;
+    opacity: 0.9;
+    transition: all 700ms ease-in-out;
+}
+/*   End of Consulation Form   */
+
+
+
+/*  Begining of Newsletter/Subscribe Section   */
+.newsletter {
+    background: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../Images/team-sub-img.jpg') round;
+    height: 20.3em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+    
+.input-group .form-control {
+    max-height: 3em;
+    max-width: 25em;
+    border: none; 
+    border-radius:0;
+    display: flex;
+}
+
+.btn {
+    max-height: 3em;
+    max-width: 15em;
+    border-radius: 0.33em;
+}
+
+.btn:hover {
+    opacity: 0.9;
+    transition: all 700ms ease-in-out;
+}
+
+.content .h3 {
+    font-size: 1.3em;
+    line-height: 1em;
+}
+
+.content .p {
+    font-size: 1em;
+}
+
+.input-group .form-control {
+    max-height: 3.8em;
+    max-width: 25.6em;
+    border-bottom-left-radius: 0.33em;
+}
+
+.input-group .form-control:hover {
+    border-bottom: 0.1em solid var(--cooldark);
+    transition: all 700ms ease-in-out;
+}
+
+
+/*   Begining of Footer Section   */
+.page-footer {
+    min-height: 32em;
+}
+
+.list-item {
+    font-size: 1.2em;
+    line-height: 1.86em;
+}
+
+.list-item:hover,
+.link-item:hover {
+    font-size: 1.22em;
+    color: var(--khaki) !important;
+    transition: all 700ms ease-in-out;
+}
+
+.link-item,
+#copyright-link {
+    font-size: 1em !important;
+    line-height: 1.86em;
+} 
+
+.link-item:hover {
+    font-size: 1.01em !important;
+    color: var(--khaki) !important;
+    transition: all 700ms ease-in-out;
+}
+
+.copyright {
+    border-top: 0.1em solid #FFFFFF;
+}
+/*   End of Footer Section   */
+
+
+
+
+/*   Media Query Responsiveness for Tablet Screen & Below   */
+@media only screen and (max-width: 768px) {
+
+    /*   Jumbotron/Showcase Section   */
+    .bg-cover {
+        background: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../Images/consultation-jumbotron-img.jpg') round;
+        max-height: 20em;
+        width: auto;
+    }
+   
+/* If the screen size is 768px wide or less, hide Overlay Div */
+    .overlay {
+        display: none;
+    }
+
+/* If the screen size is 768px wide or less, Reduce Font-size */
+    .h2 {
+        font-size: 1.2em;
+        font-weight: bold;
+    }
+
+    .lead {
+        font-size: 0.8em;
+        font-weight: normal;
+    }
+    /*   End of Jumbotron/Showcase Section   */
+
+
+    /*   Consultation Form Section   */
+    .form--text {
+        margin-top: 1.5em;
+    }
+
+    .form--main {
+        padding: 1em;
+    }
+    /*   End of Consultation Form Section   */
+}
+/*     End of Media Query Responsiveness for Tablet Screens & Below   */
+
+
+
+
