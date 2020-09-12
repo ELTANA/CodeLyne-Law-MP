@@ -112,12 +112,12 @@
 
 .form-control {
     color: var(--cooldark);
-    border-radius: 0 !important;
-    border-bottom-right-radius: 5px !important;
+    border-radius: 0;
+    border-bottom-right-radius: 5px;
 }
 
 .form-control:hover {
-    border-bottom: 1px solid var(--cooldark) !important;
+    border-bottom: 0.05em solid var(--cooldark) !important;
 }
 
 .button {
@@ -227,13 +227,11 @@
  
     /* Newsletter/Subscribe Section (Input & Button Curved Edged for small Screens) */
     .subscribe-input {
-        border-top-left-radius: 0.33em;
         border-top-right-radius: 0.33em;
     }
     
     .input-group-btn {
-        border-bottom-left-radius: 0.33em;
-        border-bottom-right-radius: 0.33em;
+        border-bottom-left-radius: 0.33em !important;
     }   
 } /*   End of Media Query for 465px Screens and Below   */
 

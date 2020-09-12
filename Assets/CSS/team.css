@@ -228,13 +228,11 @@
  
     /* Newsletter/Subscribe Section (Input & Button Curved Edged for small Screens) */
     .subscribe-input {
-        border-top-left-radius: 0.33em;
         border-top-right-radius: 0.33em;
     }
     
     .input-group-btn {
-        border-bottom-left-radius: 0.33em;
-        border-bottom-right-radius: 0.33em;
+        border-bottom-left-radius: 0.33em !important;
     }   
 } /*   End of Media Query for 465px Screens and Below   */
 
