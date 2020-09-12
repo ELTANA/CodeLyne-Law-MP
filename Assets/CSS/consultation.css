@@ -121,8 +121,8 @@
 }
 
 .button {
-    width: 17.46em;
-    height: 3.2em;
+    width: 16em;
+    height: 3em;
     padding: 0.66em 2em;
     border: none;
     border-radius: 0.33em;
@@ -134,7 +134,7 @@
 }
 
 .button:active {
-    font-weight: bold;
+    font-weight: bolder;
     opacity: 0.9;
     transition: all 700ms ease-in-out;
 }
@@ -147,27 +147,30 @@
     background: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../Images/team-sub-img.jpg') round;
     height: 20.3em;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
     
-.input-group .form-control {
-    max-height: 3em;
-    max-width: 25em;
+.subscribe-input {
+    height: 3em;
+    width: 25em;
     border: none; 
     border-radius:0;
-    display: flex;
+    border-top-left-radius: 0.33em;
 }
 
-.btn {
-    max-height: 3em;
-    max-width: 15em;
-    border-radius: 0.33em;
+.subscribe-input:hover {
+    border-bottom: 0.1em solid var(--cooldark);
+    transition: all 700ms ease-in-out;
 }
 
-.btn:hover {
+.input-group-btn {
+    height: 3em;
+    width: 15em;
+    border-radius: 0;
+    border-bottom-right-radius: 0.33em;
+}
+
+.input-group-btn:hover {
+    background: var(--btnxblue);
     opacity: 0.9;
     transition: all 700ms ease-in-out;
 }
@@ -180,20 +183,10 @@
 .content .p {
     font-size: 1em;
 }
-
-.input-group .form-control {
-    max-height: 3.8em;
-    max-width: 25.6em;
-    border-bottom-left-radius: 0.33em;
-}
-
-.input-group .form-control:hover {
-    border-bottom: 0.1em solid var(--cooldark);
-    transition: all 700ms ease-in-out;
-}
+/*   End of Newsletter/Subscribe Section   */
 
 
-/*   Begining of Footer Section   */
+/*   Begining of Main Footer Section   */
 .page-footer {
     min-height: 32em;
 }
@@ -229,8 +222,24 @@
 
 
 
+/*   Media Query Responsiveness for 645px Screen & Below   */
+@media only screen and (max-width: 645px) {
+ 
+    /* Newsletter/Subscribe Section (Input & Button Curved Edged for small Screens) */
+    .subscribe-input {
+        border-top-left-radius: 0.33em;
+        border-top-right-radius: 0.33em;
+    }
+    
+    .input-group-btn {
+        border-bottom-left-radius: 0.33em;
+        border-bottom-right-radius: 0.33em;
+    }   
+} /*   End of Media Query for 465px Screens and Below   */
 
-/*   Media Query Responsiveness for Tablet Screen & Below   */
+
+
+/*   Media Query Responsiveness for 768px Screens & Below   */
 @media only screen and (max-width: 768px) {
 
     /*   Jumbotron/Showcase Section   */
@@ -265,11 +274,9 @@
 
     .form--main {
         padding: 1em;
-    }
-    /*   End of Consultation Form Section   */
-}
-/*     End of Media Query Responsiveness for Tablet Screens & Below   */
+    } /*   End of Consultation Form Section   */
 
+} /*   End of Media Query for 465px Screens and Below   */
 
 
 
