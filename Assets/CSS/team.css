@@ -181,44 +181,17 @@
     transition: all 700ms ease-in-out;
 }
 
-.copyright {
-    border-top: 0.1em solid #FFFFFF;
-}
-/*   End of Footer Section   */
-
-
-/*   Footer   */
-.page-footer {
-    min-height: 32em;
-}
-
-.list-item {
-    font-size: 1.2em;
-    line-height: 1.86em;
-}
-
-.list-item:hover,
-.link-item:hover {
-    font-size: 1.22em;
+.hover--effect:hover {
+    font-size: 1.4em !important;
     color: var(--khaki) !important;
-    transition: all 700ms ease-in-out;
-}
-
-.link-item,
-#copyright-link {
-    font-size: 1em !important;
-    line-height: 1.86em;
-} 
-
-.link-item:hover {
-    font-size: 1.01em !important;
-    color: var(--khaki) !important;
-    transition: all 700ms ease-in-out;
+    opacity: 0.9;
+    transition: all 700ms ease-in-out;    
 }
 
 .copyright {
     border-top: 0.1em solid #FFFFFF;
 }
+/*   End of Footer Section   */
 
 
 

@@ -215,6 +215,13 @@
     transition: all 700ms ease-in-out;
 }
 
+.hover--effect:hover {
+    font-size: 1.4em !important;
+    color: var(--khaki) !important;
+    opacity: 0.9;
+    transition: all 700ms ease-in-out;    
+}
+
 .copyright {
     border-top: 0.1em solid #FFFFFF;
 }
