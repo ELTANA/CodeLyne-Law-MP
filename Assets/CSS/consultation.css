@@ -151,7 +151,7 @@
     
 .subscribe-input {
     height: 3em;
-    width: 25em;
+    width: 20em;
     border: none; 
     border-radius:0;
     border-top-left-radius: 0.33em;
@@ -164,7 +164,7 @@
 
 .input-group-btn {
     height: 3em;
-    width: 15em;
+    width: 10em;
     border-radius: 0;
     border-bottom-right-radius: 0.33em;
 }
