@@ -16,6 +16,11 @@
     font-size: 15px;
 }
 
+html,
+body {
+    height: 100%;
+}
+
 .text-khaki {
     color: var(--khaki) !important;
 }
@@ -94,19 +99,24 @@
     border: none;
     border-radius: 0;
 }
-
-.text-underline {
-    border-bottom: 0.13em solid var(--khaki);
-}
 /*   End of Jumbotron   */
 
 
+/*   Begining of Team Section   */
+.text-underline { /* Our Trusted Team Underline */
+    border-bottom: 0.13em solid var(--khaki);
+}
+
 /*   justice Drake   */
+.text-underline {
+    border-bottom: 0.13em solid var(--khaki);
+}
+
 .card-img {
     height: 100%;
     width: 100%;
 }
-
+/*   End of Team Section   */
 
 /*  Begining of Newsletter/Subscribe Section   */
 .newsletter {
@@ -149,7 +159,7 @@
 .content .p {
     font-size: 1em;
 }
-/*   End of Newsletter   */
+*   End of Newsletter   */
 
 
 /*   Begining of Footer Section   */

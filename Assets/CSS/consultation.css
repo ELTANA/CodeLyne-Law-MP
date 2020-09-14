@@ -229,6 +229,15 @@
 
 
 
+
+/*   Media Query Responsiveness for 425px Screen & Below   */
+@media only screen and (max-width: 425px) {
+    .button {
+        min-width: 100%;
+    }
+}
+
+
 /*   Media Query Responsiveness for 645px Screen & Below   */
 @media only screen and (max-width: 645px) {
  
