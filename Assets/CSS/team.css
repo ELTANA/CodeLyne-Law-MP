@@ -88,7 +88,7 @@ body {
 /*   End of Nav Bar   */    
 
 
-/*   Jumbotron   */
+/*   Begining of Showcase/Jumbotron   */
 .bg-cover {
     background: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../Images/team-jumbotron-img.jpg') round;
     height: 40.13em;
@@ -99,7 +99,7 @@ body {
     border: none;
     border-radius: 0;
 }
-/*   End of Jumbotron   */
+/*   End of Showcase/Jumbotron   */
 
 
 /*   Begining of Team Section   */
@@ -217,7 +217,7 @@ body {
     .input-group-btn {
         border-bottom-left-radius: 0.33em !important;
     }   
-} /*   End of Media Query for 465px Screens and Below   */
+} /*   End of Media Query for 645px Screens and Below   */
 
 
 
