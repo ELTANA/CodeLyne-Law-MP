@@ -40,6 +40,7 @@ body {
 .bg-btnblue {
     background: var(--btnblue);
 }
+
 /*   End of Global Styles   */
 
 
@@ -76,7 +77,7 @@ body {
 }
 
 .active:hover {
-    color: #FFFFFF !important;
+    color: #ffffff !important;
     font-size: 1.15em;
     font-weight: bold;
     transition: all 700ms ease-in-out;
@@ -85,12 +86,13 @@ body {
 .nav-link {
     margin-left: 1em;
 }
-/*   End of Nav Bar   */    
+
+/*   End of Nav Bar   */
 
 
 /*   Begining of Showcase/Jumbotron   */
 .bg-cover {
-    background: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../Images/team-jumbotron-img.jpg') round;
+    background: linear-gradient(rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.6) 100%), url('../Images/team-jumbotron-img.jpg') round;
     height: 40.13em;
     max-width: auto;
 }
@@ -99,16 +101,13 @@ body {
     border: none;
     border-radius: 0;
 }
+
 /*   End of Showcase/Jumbotron   */
 
 
 /*   Begining of Team Section   */
-.text-underline { /* Our Trusted Team Underline */
-    border-bottom: 0.13em solid var(--khaki);
-}
-
-/*   justice Drake   */
 .text-underline {
+    /* Our Trusted Team Underline */
     border-bottom: 0.13em solid var(--khaki);
 }
 
@@ -116,20 +115,21 @@ body {
     height: 100%;
     width: 100%;
 }
+
 /*   End of Team Section   */
 
 /*  Begining of Newsletter/Subscribe Section   */
 .newsletter {
-    background: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../Images/team-sub-img.jpg') round;
+    background: linear-gradient(rgba(0, 0, 0, 0.6) 0%,  rgba(0, 0, 0, 0.6) 100%), url('../Images/team-sub-img.jpg') round;
     height: 20.3em;
     width: 100%;
 }
-    
+
 .subscribe-input {
     height: 3em;
     width: 20em;
-    border: none; 
-    border-radius:0;
+    border: none;
+    border-radius: 0;
     border-top-left-radius: 0.33em;
 }
 
@@ -159,6 +159,7 @@ body {
 .content .p {
     font-size: 1em;
 }
+
 /*   End of Newsletter/Subscribe Section   */
 
 
@@ -183,7 +184,7 @@ body {
 #copyright-link {
     font-size: 1em !important;
     line-height: 1.86em;
-} 
+}
 
 .link-item:hover {
     font-size: 1.01em !important;
@@ -195,12 +196,13 @@ body {
     font-size: 1.4em !important;
     color: var(--khaki) !important;
     opacity: 0.9;
-    transition: all 700ms ease-in-out;    
+    transition: all 700ms ease-in-out;
 }
 
 .copyright {
-    border-top: 0.1em solid #FFFFFF;
+    border-top: 0.1em solid #ffffff;
 }
+
 /*   End of Footer Section   */
 
 
@@ -208,16 +210,18 @@ body {
 
 /*   Media Query Responsiveness for 645px Screen & Below   */
 @media only screen and (max-width: 645px) {
- 
+
     /* Newsletter/Subscribe Section (Input & Button Curved Edged for small Screens) */
     .subscribe-input {
         border-top-right-radius: 0.33em;
     }
-    
+
     .input-group-btn {
         border-bottom-left-radius: 0.33em !important;
-    }   
-} /*   End of Media Query for 645px Screens and Below   */
+    }
+}
+
+/*   End of Media Query for 645px Screens and Below   */
 
 
 
@@ -226,18 +230,18 @@ body {
 
     /*   Jumbotron/Showcase Section   */
     .bg-cover {
-        background: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../Images/team-jumbotron-img.jpg') round;
+        background: linear-gradient(rgba(0, 0, 0, 0.6) 0%,  rgba(0, 0, 0, 0.6) 100%), url('../Images/team-jumbotron-img.jpg') round;
         max-height: 20em;
         width: auto;
     }
 
-    
-/* If the screen size is 768px wide or less, hide Overlay Div */
+
+    /* If the screen size is 768px wide or less, hide Overlay Div */
     .overlay {
         display: none;
     }
 
-/* If the screen size is 768px wide or less, Reduce Font-size */
+    /* If the screen size is 768px wide or less, Reduce Font-size */
     .h2 {
         font-size: 1.2em;
         font-weight: bold;
@@ -247,14 +251,9 @@ body {
         font-size: 0.8em;
         font-weight: normal;
     }
+
     /*   End of Jumbotron/Showcase Section   */
-    
-} /*   End of Media Query for 768px Screens and Below   */
 
+}
 
-
-
-
-
-
- 
+/*   End of Media Query for 768px Screens and Below   */

@@ -1,11 +1,11 @@
 /*    Global Styles   */
 :root {
-    --vdark: #1B1E21;
-    --cooldark: #333333;
-    --extremedark: #000000;
-    --khaki: #E48C21;
-    --btnblue: #343F59;
-    --btnxblue: #343F61;
+    --vdark: #1b1e21;
+    --cooldark: #333;
+    --extremedark: #000;
+    --khaki: #e48c21;
+    --btnblue: #343f59;
+    --btnxblue: #343f61;
 }
 
 * {
@@ -35,6 +35,7 @@
 .bg-btnblue {
     background: var(--btnblue);
 }
+
 /*   End of Global Styles   */
 
 
@@ -71,7 +72,7 @@
 }
 
 .active:hover {
-    color: #FFFFFF !important;
+    color: #ffffff !important;
     font-size: 1.15em;
     font-weight: bold;
     transition: all 700ms ease-in-out;
@@ -80,12 +81,13 @@
 .nav-link {
     margin-left: 1em;
 }
-/*   End of Nav Bar   */    
+
+/*   End of Nav Bar   */
 
 
 /*   Jumbotron   */
 .bg-cover {
-    background: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../Images/consultation-jumbotron-img.jpg') round;
+    background: linear-gradient(rgba(0, 0, 0, 0.6) 0%,  rgba(0, 0, 0, 0.6) 100%), url('../Images/consultation-jumbotron-img.jpg') round;
     height: 40.13em;
     max-width: auto;
 }
@@ -99,6 +101,7 @@
     font-size: 1.15em;
     margin-top: 3em;
 }
+
 /*   End of Jumbotron   */
 
 
@@ -106,7 +109,7 @@
 .form--main {
     max-width: 80em;
     max-height: 62em;
-    background: #E5E5E5;
+    background: #e5e5e5;
     padding: 5em;
 }
 
@@ -138,22 +141,23 @@
     opacity: 0.9;
     transition: all 700ms ease-in-out;
 }
+
 /*   End of Consulation Form   */
 
 
 
 /*  Begining of Newsletter/Subscribe Section   */
 .newsletter {
-    background: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../Images/team-sub-img.jpg') round;
+    background: linear-gradient(rgba(0, 0, 0, 0.6) 0%,  rgba(0, 0, 0, 0.6) 100%), url('../Images/team-sub-img.jpg') round;
     height: 20.3em;
     width: 100%;
 }
-    
+
 .subscribe-input {
     height: 3em;
     width: 20em;
-    border: none; 
-    border-radius:0;
+    border: none;
+    border-radius: 0;
     border-top-left-radius: 0.33em;
 }
 
@@ -183,6 +187,7 @@
 .content .p {
     font-size: 1em;
 }
+
 /*   End of Newsletter/Subscribe Section   */
 
 
@@ -207,7 +212,7 @@
 #copyright-link {
     font-size: 1em !important;
     line-height: 1.86em;
-} 
+}
 
 .link-item:hover {
     font-size: 1.01em !important;
@@ -219,12 +224,13 @@
     font-size: 1.4em !important;
     color: var(--khaki) !important;
     opacity: 0.9;
-    transition: all 700ms ease-in-out;    
+    transition: all 700ms ease-in-out;
 }
 
 .copyright {
     border-top: 0.1em solid #FFFFFF;
 }
+
 /*   End of Footer Section   */
 
 
@@ -240,16 +246,18 @@
 
 /*   Media Query Responsiveness for 645px Screen & Below   */
 @media only screen and (max-width: 645px) {
- 
+
     /* Newsletter/Subscribe Section (Input & Button Curved Edged for small Screens) */
     .subscribe-input {
         border-top-right-radius: 0.33em;
     }
-    
+
     .input-group-btn {
         border-bottom-left-radius: 0.33em !important;
-    }   
-} /*   End of Media Query for 465px Screens and Below   */
+    }
+}
+
+/*   End of Media Query for 465px Screens and Below   */
 
 
 
@@ -258,17 +266,17 @@
 
     /*   Jumbotron/Showcase Section   */
     .bg-cover {
-        background: linear-gradient(rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url('../Images/consultation-jumbotron-img.jpg') round;
+        background: linear-gradient(rgba(0, 0, 0, 0.6) 0%,  rgba(0, 0, 0, 0.6) 100%), url('../Images/consultation-jumbotron-img.jpg') round;
         max-height: 20em;
         width: auto;
     }
-   
-/* If the screen size is 768px wide or less, hide Overlay Div */
+
+    /* If the screen size is 768px wide or less, hide Overlay Div */
     .overlay {
         display: none;
     }
 
-/* If the screen size is 768px wide or less, Reduce Font-size */
+    /* If the screen size is 768px wide or less, Reduce Font-size */
     .h2 {
         font-size: 1.2em;
         font-weight: bold;
@@ -278,6 +286,7 @@
         font-size: 0.8em;
         font-weight: normal;
     }
+
     /*   End of Jumbotron/Showcase Section   */
 
 
@@ -288,12 +297,10 @@
 
     .form--main {
         padding: 1em;
-    } /*   End of Consultation Form Section   */
+    }
 
-} /*   End of Media Query for 768px Screens and Below   */
+    /*   End of Consultation Form Section   */
 
+}
 
-
-
-
-
+/*   End of Media Query for 768px Screens and Below   */
